@@ -1,0 +1,79 @@
+core python notes
+
+
+# # literals - types of varaibes. 
+#
+# print(10)
+# print(2.34)
+# print('a')
+# print("hello world")
+# print("12134")
+# print("abc123")
+# print("@#$%$#%^%^$&%^&");
+# print("Hello 'ecoders' welcome to python")
+# print('hello "ecoders" welcome to python')
+#
+# print(type(10))
+# print(type(2.4))
+# print(type("hello world"))
+#
+# # varaibles :  named memory locations. 
+# a= 10
+# print(a)
+#
+# name = "Ecoders"
+# print(name)
+# print(type(name))
+
+
+# operators. 
+# arthematic 
+
+a = 7 
+b = 3
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a**b) #power to a number 7 ^ 3 = 7*7*7
+print(a/b) # decimal
+print(a//b) # integer number of division
+print(a%b) # reminder after division
+
+# relational, < > <= >= == != 
+print(a<b)
+print(a>b)
+print(a== b)
+print(a!=b)
+
+# logical operators. && , and , or, not , 
+
+# concatination , of datatypes. 
+
+a = 10
+b = 20
+
+# print("the sum is " +str(a+b))
+
+# print("The sum is ", (a+b))
+
+print("the sum is {}".format(a+b))
+
+name = "megha"
+age = 20
+designation = "test engineer"
+
+
+print("The emp is {}, age is {}, role is {}.".format(name, age, designation))
+
+
+
+
+
+
+
+
+
+
+
+
